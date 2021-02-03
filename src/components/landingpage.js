@@ -152,14 +152,15 @@ const LandingPage = () => {
               </li></ul>
             <h2>Customer Care Solutions<span>2017 – 2018</span></h2>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur
-              </li><li>Lorem ipsum dolor sit amet consectetur
+              <li>Customer service through courtesy calls
+              </li><li>Identify and escalate issues to supervisors
+              </li><li>Document all call information according to standard operating procedures
               </li></ul>
           </dd>
         </dl>
         <dl>
           <dt>Hobbies
-          </dt><dd>Lorem ipsum dolor sit amet consectetur
+          </dt><dd>Music production, video editing, soccer, basketball
           </dd></dl>
         </div>
           </div>
@@ -169,7 +170,6 @@ const LandingPage = () => {
           <div className="row">
             <div className="col-lg-12 text-center">
               <h2 className="text-uppercase section-heading">Testimonials</h2>
-              <h3 className="text-muted section-subheading">Lorem ipsum dolor sit amet consectetur</h3>
             </div>
           </div>
           <div className="row space-rows" id="animated-cards">
@@ -182,8 +182,10 @@ const LandingPage = () => {
                   </div>
                 </div>
                 <div className="card-body">
-                  <p className="card-text sub-text-color"> Description:</p>
-                  <p className="card-text cardbody-sub-text">Lorem ipsum.<br /><br /><br /></p>
+                  <p className="card-text cardbody-sub-text">Luyanda has become an incredibly diligent and hardworking developer,
+                  who as acquired skills in both front end and back end. He is
+                  constantly working to better himself, and has shown a sense of
+                  creativity and professionalism in his front end development.<br /><br /><br /></p>
                 </div>
               </div>
             </div>
@@ -196,8 +198,10 @@ const LandingPage = () => {
                   </div>
                 </div>
                 <div className="card-body">
-                  <p className="card-text sub-text-color"> Description:</p>
-                  <p className="card-text cardbody-sub-text">Lorem Ipsum<br /><br /><br /></p>
+                  <p className="card-text cardbody-sub-text">Luyanda is a committed individual who is willing to learn more and
+                  gain more skills. Luyanda have goals and is willing to do anything
+                  to reach them,yet his also very helpful and is a team player. He is
+                  a great developer and will be a asset to the working area<br /><br /><br /></p>
                 </div>
               </div>
             </div>
@@ -206,12 +210,13 @@ const LandingPage = () => {
                 <div className="card-header cards-header-hover"><span className="space"><i className="far fa-comments service-icon" id="service-icon-3"/></span>
                   <div className="cardheader-text">
                     <h4 id="heading-card-3" className="heading-card">Akholiwe Mtukuse</h4>
-                    <p id="cardheader-subtext-3" className="cardheader-subtext">Lorem Ipsum</p>
+                    <p id="cardheader-subtext-3" className="cardheader-subtext">Classmate</p>
                   </div>
                 </div>
                 <div className="card-body">
-                  <p className="card-text sub-text-color"> Description:</p>
-                  <p className="card-text cardbody-sub-text">Lorem Ipsum</p>
+                  <p className="card-text cardbody-sub-text">Luyanda is a people's person and works well with others and
+                  individually. His ethic is on par and he is always willing to lend a
+                  helping hand.</p>
                 </div>
               </div>
             </div>
@@ -250,7 +255,7 @@ const LandingPage = () => {
                             <div className="slide-1">
                               <span className="fi-social-facebook" />
                             </div>
-                            <div className="slide-2">Repo</div>
+                            <div className="slide-2">Click Here</div>
                           </a>
                         </td>
                         <td>
@@ -259,7 +264,7 @@ const LandingPage = () => {
                             <div className="slide-1">
                               <span className="fi-social-twitter" />
                             </div>
-                            <div className="slide-2">Live link</div>
+                            <div className="slide-2">Click Here</div>
                           </a>
                         </td>
                       </tr>
@@ -292,7 +297,7 @@ const LandingPage = () => {
                             <div className="slide-1">
                               <span className="fi-social-facebook" />
                             </div>
-                            <div className="slide-2">Repo</div>
+                            <div className="slide-2">Click Here</div>
                           </a>
                         </td>
                         <td>
@@ -301,7 +306,7 @@ const LandingPage = () => {
                             <div className="slide-1">
                               <span className="fi-social-twitter" />
                             </div>
-                            <div className="slide-2">Live link</div>
+                            <div className="slide-2">Click Here</div>
                           </a>
                         </td>
                       </tr>
@@ -334,7 +339,7 @@ const LandingPage = () => {
                               <div className="slide-1">
                                 <span className="fi-social-facebook" />
                               </div>
-                              <div className="slide-2">Repo</div>
+                              <div className="slide-2">Click Here</div>
                             </a>
                           </td>
                           <td>
@@ -343,7 +348,7 @@ const LandingPage = () => {
                               <div className="slide-1">
                                 <span className="fi-social-twitter" />
                               </div>
-                              <div className="slide-2">Live link</div>
+                              <div className="slide-2">Click Here</div>
                             </a>
                           </td>
                         </tr>
@@ -362,15 +367,15 @@ const LandingPage = () => {
           <form className="form-horizontal" role="form" method="post" action="mailto:luyandamabozo@gmail.com">
             <div className="form-group">
               <div className="col-lg-6" >
-                <input type="text" className="form-control" id="name" placeholder="NAME" name="name" defaultValue required />
+                <input type="text" className="form-control" id="name" placeholder="NAME"  required />
               </div>
             </div>
             <div className="form-group">
               <div className="col-lg-6">
-                <input type="email" className="form-control" id="email" placeholder="EMAIL" name="email" defaultValue required />
+                <input type="email" className="form-control" id="email" placeholder="EMAIL" required />
               </div>
             </div>
-            <textarea className="form-control" rows={10} placeholder="MESSAGE" name="message" required defaultValue={""} />
+            <textarea className="form-control" rows={10} placeholder="MESSAGE" required defaultValue={""} />
             <button className="btn btn-primary send-button" id="submit" type="submit" value="SEND">
               <div className="button">
                 <i className="fa fa-paper-plane" /><span className="send-text">SEND</span>
